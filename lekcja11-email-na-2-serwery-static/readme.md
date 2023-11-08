@@ -1,6 +1,6 @@
 <h1>Email serwer na 2 serwerach na static </h1>
 
-# SCHEAMT
+# SCHEMAT
 
 # R1
 ![Alt text](image-2.png)
@@ -18,6 +18,9 @@
 
 # SERWER WP.PL
 ![Alt text](image-15.png)
+![Alt text](image-16.png)
+![Alt text](image-17.png)
+
 # SERWER O2.PL
 ![Alt text](image-12.png)
 ![Alt text](image-13.png)
@@ -29,5 +32,9 @@
 ![Alt text](image-11.png)
 
 # PC JAN
+![Alt text](image-18.png)
+![Alt text](image-19.png)
 
 # PC STACHU
+![Alt text](image-20.png)
+![Alt text](image-21.png)
