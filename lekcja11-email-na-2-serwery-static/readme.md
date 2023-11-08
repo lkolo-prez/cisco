@@ -1,6 +1,7 @@
 <h1>Email serwer na 2 serwerach na static </h1>
 
 # SCHEMAT
+![Alt text](image-22.png)
 
 # R1
 ![Alt text](image-2.png)
