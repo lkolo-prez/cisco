@@ -1,7 +1,12 @@
 VLAN
 
-Schemat:
-![Alt text](image-2.png)
+Schemat1
+![Alt text](image-9.png)
+
+
+Schemat2:
+![Alt text](image-8.png)
+
 
 SWITCH 1
 ![Alt text](image-4.png)
