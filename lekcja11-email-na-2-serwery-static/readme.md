@@ -39,3 +39,4 @@
 # PC STACHU
 ![Alt text](image-20.png)
 ![Alt text](image-21.png)
+![Alt text](image-24.png)
