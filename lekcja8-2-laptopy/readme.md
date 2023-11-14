@@ -26,4 +26,7 @@ laptop 2
 ![Alt text](image-7.png)
 ![Alt text](image-8.png)
 
-
+serwer http
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+![Alt text](image-14.png)
