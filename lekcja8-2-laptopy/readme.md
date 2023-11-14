@@ -3,6 +3,11 @@
 Schemat 
 ![Alt text](image-2.png)
 
+router 1
+![Alt text](image-9.png)
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+
 wifi 1
 ![Alt text](image-1.png)
 
