@@ -24,6 +24,8 @@ switchport access vlan 20
 
 interface GigabitEthernet0/1
 switchport mode trunk
+switchport trunk allowed vlan add 10
+switchport trunk allowed vlan add 20
 ```
 
 ## pc 1
@@ -44,4 +46,7 @@ switchport mode trunk
 ![Alt text](image-4.png)
 
 ## z vlanmia
-
+### vlan 10
+![Alt text](image-8.png)
+### vlan 20
+![Alt text](image-9.png)
