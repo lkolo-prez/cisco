@@ -18,6 +18,7 @@ name 20
 interface FastEthernet0/1
 switchport mode access
 switchport access vlan 10 
+
 interface FastEthernet0/2
 switchport mode access
 switchport access vlan 20 
@@ -26,6 +27,12 @@ interface GigabitEthernet0/1
 switchport mode trunk
 switchport trunk allowed vlan add 10
 switchport trunk allowed vlan add 20
+```
+
+Alternatywa
+```
+interface f0/1
+switchport mode dynamic desirable
 ```
 
 ## pc 1
