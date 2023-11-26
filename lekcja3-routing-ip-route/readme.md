@@ -43,5 +43,9 @@ Router(config)#ip route 192.168.0.0 255.255.255.0 192.168.2.1
 Router(config)#ip route 192.168.1.0 255.255.255.0 192.168.2.1
 
 ### SERWER
-
+![Alt text](image-12.png)
+![Alt text](image-14.png)
+![Alt text](image-15.png)
+![Alt text](image-17.png)
+![Alt text](image-16.png)
 ### STACJA ROBOCZA
