@@ -1,6 +1,7 @@
 ## temat: Routing IP router
 
 ### SCHEMAT
+![Alt text](image-27.png)
 
 ### R1
 ![Alt text](image.png)
@@ -63,4 +64,5 @@ Router(config)#ip route 192.168.1.0 255.255.255.0 192.168.2.1
 ![Alt text](image-24.png)
 ![Alt text](image-25.png)
 
-
+## final wp.pl 
+![Alt text](image-26.png)
