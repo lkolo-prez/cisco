@@ -7,6 +7,7 @@
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
+![Alt text](image-20.png)
 
 Router(config)#interface GigabitEthernet0/0/0
 Router(config-if)#ip address 192.168.0.1 255.255.255.0
@@ -14,6 +15,7 @@ Router(config)#interface GigabitEthernet0/0/1
 Router(config-if)#ip address 192.168.1.1 255.255.255.0
 Router(config)#ip route 192.168.2.0 255.255.255.0 192.168.1.2
 Router(config)#ip route 192.168.3.0 255.255.255.0 192.168.1.2
+Router(config)#ip route 192.168.1.0 255.255.255.0 192.168.1.1
 
 
 ### R2
@@ -48,4 +50,12 @@ Router(config)#ip route 192.168.1.0 255.255.255.0 192.168.2.1
 ![Alt text](image-15.png)
 ![Alt text](image-17.png)
 ![Alt text](image-16.png)
+
 ### STACJA ROBOCZA
+![Alt text](image-18.png)
+![Alt text](image-19.png)
+
+
+## testy ping 
+![Alt text](image-21.png)
+
