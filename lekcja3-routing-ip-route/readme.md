@@ -58,4 +58,9 @@ Router(config)#ip route 192.168.1.0 255.255.255.0 192.168.2.1
 
 ## testy ping 
 ![Alt text](image-21.png)
+![Alt text](image-22.png)
+![Alt text](image-23.png)
+![Alt text](image-24.png)
+![Alt text](image-25.png)
+
 
