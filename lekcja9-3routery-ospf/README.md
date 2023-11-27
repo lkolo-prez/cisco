@@ -1,7 +1,7 @@
 # lekcja 9-3routery-ospf
 
 ## SCHEMAT
-![Alt text](image-4.png)
+![Alt text](image-19.png)
 
 
 ## R1
@@ -14,8 +14,6 @@ Router# configure terminal
 Router(config)# router ospf 1
 network 192.168.0.0 0.0.0.255 area 0
 network 192.168.1.0 0.0.0.255 area 0
-network 192.168.2.0 0.0.0.255 area 0
-network 192.168.3.0 0.0.0.255 area 0
 exit
 
 
@@ -26,10 +24,8 @@ exit
 enable
 configure terminal
 router ospf 1
-network 192.168.0.0 0.0.0.255 area 0
 network 192.168.1.0 0.0.0.255 area 0
 network 192.168.2.0 0.0.0.255 area 0
-network 192.168.3.0 0.0.0.255 area 0
 exit
 
 ## R3
@@ -38,8 +34,6 @@ exit
 enable
 configure terminal
 router ospf 1
-network 192.168.0.0 0.0.0.255 area 0
-network 192.168.1.0 0.0.0.255 area 0
 network 192.168.2.0 0.0.0.255 area 0
 network 192.168.3.0 0.0.0.255 area 0
 exit
@@ -63,5 +57,7 @@ exit
 ![Alt text](image-16.png)
 
 ## FINAL WP.PL
+![Alt text](image-20.png)
 ![Alt text](image-17.png)
 ![Alt text](image-18.png)
+![Alt text](image-21.png)
