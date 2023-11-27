@@ -29,6 +29,9 @@ R1(config-router)#end
 ## R3
 
 ## SERVER DNS
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
 
 ## SERVER HTTP
 
