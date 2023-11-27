@@ -34,6 +34,9 @@ R1(config-router)#end
 ![Alt text](image-7.png)
 
 ## SERVER HTTP
+![Alt text](image-8.png)
+![Alt text](image-9.png)
+![Alt text](image-10.png)
 
 ## STACJA ROBOCZA
 ![Alt text](image.png)
