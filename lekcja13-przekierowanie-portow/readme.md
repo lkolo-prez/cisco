@@ -1,59 +1,9 @@
-# schemat
-![Alt text](image-5.png)
+## lekcja 13: przekierowanie portu
 
-# switch
-![Alt text](image-6.png)
-![Alt text](image-7.png)
+### R1
 
-## komendy do VLANów
+### R2
 
-```
-configure terminal
-vlan 10
-name 10
+### PC
 
-vlan 20
-name 20
-
-interface FastEthernet0/1
-switchport mode access
-switchport access vlan 10 
-
-interface FastEthernet0/2
-switchport mode access
-switchport access vlan 20 
-
-interface GigabitEthernet0/1
-switchport mode trunk
-switchport trunk allowed vlan add 10
-switchport trunk allowed vlan add 20
-```
-
-Alternatywa
-```
-interface f0/1
-switchport mode dynamic desirable
-```
-
-## pc 1
-![Alt text](image.png)
-
-## pc 2
-![Alt text](image-1.png)
-
-## pc 3
-![Alt text](image-2.png)
-
-## pc 4
-![Alt text](image-3.png)
-
-
-# pingi
-## bez vlanów 
-![Alt text](image-4.png)
-
-## z vlanmia
-### vlan 10
-![Alt text](image-8.png)
-### vlan 20
-![Alt text](image-9.png)
+### SERWER
