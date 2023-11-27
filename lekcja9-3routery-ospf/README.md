@@ -9,24 +9,40 @@
 ![Alt text](image-3.png)
 
 
-R1#conf t
-Enter configuration commands, one per line. End with CNTL/Z.
-R1(config)#
-R1(config)#router ospf 10
-R1(config-router)#network 192.168.5.0 ?
-A.B.C.D OSPF wild card bits
-R1(config-router)#network 192.168.5.0 0.0.0.255 ?
-area Set the OSPF area ID
-R1(config-router)#network 192.168.5.0 0.0.0.255 area ?
-OSPF area ID as a decimal value
-A.B.C.D OSPF area ID in IP address format
-R1(config-router)#network 192.168.5.0 0.0.0.255 area 0
-R1(config-router)#network 10.1.1.0 0.0.0.3 area 0
-R1(config-router)#end
+Router> enable
+Router# configure terminal
+Router(config)# router ospf 1
+network 192.168.0.0 0.0.0.255 area 0
+network 192.168.1.0 0.0.0.255 area 0
+network 192.168.2.0 0.0.0.255 area 0
+network 192.168.3.0 0.0.0.255 area 0
+exit
+
 
 ## R2
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+
+enable
+configure terminal
+router ospf 1
+network 192.168.0.0 0.0.0.255 area 0
+network 192.168.1.0 0.0.0.255 area 0
+network 192.168.2.0 0.0.0.255 area 0
+network 192.168.3.0 0.0.0.255 area 0
+exit
 
 ## R3
+![Alt text](image-13.png)
+![Alt text](image-14.png)
+enable
+configure terminal
+router ospf 1
+network 192.168.0.0 0.0.0.255 area 0
+network 192.168.1.0 0.0.0.255 area 0
+network 192.168.2.0 0.0.0.255 area 0
+network 192.168.3.0 0.0.0.255 area 0
+exit
 
 ## SERVER DNS
 ![Alt text](image-5.png)
@@ -43,5 +59,9 @@ R1(config-router)#end
 ![Alt text](image-1.png)
 
 ## PINGI 
+![Alt text](image-15.png)
+![Alt text](image-16.png)
 
 ## FINAL WP.PL
+![Alt text](image-17.png)
+
