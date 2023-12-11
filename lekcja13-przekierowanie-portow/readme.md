@@ -10,8 +10,7 @@
 ### SERWER http
 ![Alt text](image-4.png)
 ![Alt text](image-5.png)
-![Alt text](image-6.png)
+![Alt text](image-8.png)
 
-### serwer dns
-
+![Alt text](image-9.png)
 
