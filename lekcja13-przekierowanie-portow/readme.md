@@ -1,5 +1,5 @@
 ## lekcja 13: przekierowanie portu
-
+![Alt text](image-7.png)
 ### R1
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
